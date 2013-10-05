@@ -37,7 +37,7 @@ Usage
 
 8] Automate the task on every startup with `crontab`.
 
-	crontab -e
+	$crontab -e
 	@reboot php [path_to_script]/notify.php > /dev/null
 
 Screenshot
